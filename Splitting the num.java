@@ -36,8 +36,8 @@ while(in.hasNext())
 			a+="0";
 			b+="0";
 		}
-		System.out.println(Integer.parseInt(new StringBuilder(a).reverse().toString(),2)+" "+Integer.parseInt(new StringBuilder(b).reverse().toString(),2));
-	}	
+	}
+		System.out.println(Integer.parseInt(new StringBuilder(a).reverse().toString(),2)+" "+Integer.parseInt(new StringBuilder(b).reverse().toString(),2));	
 	}
 	}
 }
