@@ -4,11 +4,13 @@ the three letters — output the words “abc”, “acb”, “bac”, “bca�
 In the word taken from the input file, some letters may appear more than once. For a given word,
 your program should not produce the same word more than once, and the words should be output in
 alphabetically ascending order.
-Input
+
+ Input
 The input file consists of several words. The first line contains a number giving the number of words to
 follow. Each following line contains one word. A word consists of uppercase or lowercase letters from
 ‘A’ to ‘Z’. Uppercase and lowercase letters are to be considered different.
-Output
+
+ Output
 For each word in the input file, the output file should contain all different words that can be generated
 with the letters of the given word. The words generated from the same input word should be output in
 alphabetically ascending order. An upper case letter goes before the corresponding lower case letter.
